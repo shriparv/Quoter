@@ -1,0 +1,19 @@
+# .gitignore
+# Python and virtual environment
+.venv/
+__pycache__/
+*.pyc
+
+# Secrets and credentials
+client_secret_*.json
+token.pickle
+
+# Large or generated files
+output/
+backup/
+*.mp4
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
